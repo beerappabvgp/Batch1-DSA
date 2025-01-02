@@ -18,3 +18,24 @@ nums = [1,2,2,4,5,6,7]
 target = 2
 print(binary_search(nums, target))
         
+# TC : O(log n)
+# SC : O(1)
+
+
+# I/P space -> infinity
+# O/P space -> 0 to len(nums)
+nums = [1,2,3,4,5,6,7]
+
+# 7 -> 7 // 2
+# 3 -> 3 // 2
+
+8 -> 4 -> 2 -> 1
+
+1/2**4 , 2**2 , 2 ** 1
+
+len(nums)/2**n = 1
+len(nums) = 2 ** n
+n = log(len(nums))
+
+
+
