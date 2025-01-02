@@ -45,3 +45,18 @@ print(palindrome(s))
 
 # O(len(s))
 # O(1)
+
+
+# ArrayList<Integer> list = new ArrayList<>();
+# list.add(1);
+# list.add(2);
+# list.add(3);
+# [1,2,3]
+# for (int i = 0 ; i <= n; i++) {
+
+# }
+
+# pointer - address of the memory location
+
+# [1,2,3,4,5] = 5
+# [0] * 6 = [1,2,3,4,5] => [100,1,2,3,4,5]
