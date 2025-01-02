@@ -85,11 +85,22 @@
 #             return True
 
 
-# def search(nums, target):
+
+
+# Time Complexity and space complexity 
+
+# # TC : O(n)
+# # n = len(nums)
+# [1,2,4,567,45]  // 5 
+# [1,2,3,4,5,56,67,6] // 8 -> target - 1 - O(1)
+
+
+# def linear_search(nums, target):
 #     n = len(nums)
 #     for i in range(0, n):
 #         if nums[i] == target:
 #             return True
 #     return False
 
+# O(1) - SC
 # print(search([1,2,3], 30))
