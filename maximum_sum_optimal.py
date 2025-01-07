@@ -7,7 +7,7 @@
 
 def optimal_max_sum(nums, k):
     n = len(nums)
-    max_sum = float("-inf")
+    max_sum = -10**9
     current_sum = 0
     left = 0
     print("current_sum: ", current_sum)
@@ -28,5 +28,11 @@ nums =  [10,2,40,5,70,20,35]
 k = 3
 print(optimal_max_sum(nums, k))
 
+
+# Time Complexity
+# n = 10
+# 10 operations 
+# TC: (O(K) + O(len(nums)) 
+# overall TC: O(len(nums))
 
 
