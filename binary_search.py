@@ -36,6 +36,7 @@ nums = [1,2,3,4,5,6,7]
 len(nums)/2**n = 1
 len(nums) = 2 ** n
 n = log(len(nums))
+ 
 
 
 
